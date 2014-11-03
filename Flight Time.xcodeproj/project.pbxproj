@@ -432,7 +432,7 @@
 				2F213B641862B2CB006DBDAF /* backBtn.png */,
 				2F483A56185AB52200052E2A /* png */,
 			);
-			name = Resource;
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
