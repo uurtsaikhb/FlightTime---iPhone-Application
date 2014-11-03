@@ -1,12 +1,4 @@
-//
-//  ODRefreshControl.h
-//  ODRefreshControl
-//
-//  Created by Fabio Ritrovato on 6/13/12.
-//  Copyright (c) 2012 orange in a day. All rights reserved.
-//
-// https://github.com/Sephiroth87/ODRefreshControl
-//
+
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>

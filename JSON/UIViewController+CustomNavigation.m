@@ -1,10 +1,4 @@
-//
-//  UIViewController+CustomNavigation.m
-//  BizNetwork
-//
-//  Created by Mandal Tsaschikher on 4/30/13.
-//  Copyright (c) 2013 Mandal Tsaschikher. All rights reserved.
-//
+
 
 #import "UIViewController+CustomNavigation.h"
 #import <QuartzCore/QuartzCore.h>

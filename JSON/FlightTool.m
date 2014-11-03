@@ -1,10 +1,4 @@
-//
-//  LegalTool.m
-//  Legalinfo
-//
-//  Created by Mandal Tsaschikher on 7/26/13.
-//  Copyright (c) 2013 Mandal Tsaschikher. All rights reserved.
-//
+
 
 #import "FlightTool.h"
 
