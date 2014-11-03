@@ -126,8 +126,8 @@
 		2F649843186821C30001F07B /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
 		2F649845186826770001F07B /* tabbar_date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_date.png; sourceTree = "<group>"; };
 		2F649846186826770001F07B /* tabbar_date@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_date@2x.png"; sourceTree = "<group>"; };
-		2F64984A186827BB0001F07B /* DateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateViewController.h; sourceTree = SOURCE_ROOT; };
-		2F64984B186827BB0001F07B /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = SOURCE_ROOT; };
+		2F64984A186827BB0001F07B /* DateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateViewController.h; path = Views/DateViewController.h; sourceTree = SOURCE_ROOT; };
+		2F64984B186827BB0001F07B /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateViewController.m; path = Views/DateViewController.m; sourceTree = SOURCE_ROOT; };
 		2F64986618690DE70001F07B /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
 		2F64986718690DE70001F07B /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
 		2F64986818690DE70001F07B /* ShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowViewController.xib; sourceTree = "<group>"; };
@@ -275,25 +275,24 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		2FC890B51A07750500F885E9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2FD098DE185858B20012BA79 /* FlightListCell.h */,
+				2FD098DF185858B20012BA79 /* FlightListCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		2FD0986D18559C590012BA79 = {
 			isa = PBXGroup;
 			children = (
-				2F6F9E61187E507000B3F2E6 /* LoginViewController.h */,
-				2F6F9E62187E507000B3F2E6 /* LoginViewController.m */,
-				2F6F9E5E187E4FDA00B3F2E6 /* TabViewController.h */,
-				2F6F9E5F187E4FDA00B3F2E6 /* TabViewController.m */,
 				2F483A6F185AE38C00052E2A /* Externals */,
 				2FD098EB185967870012BA79 /* Resource */,
 				2FD098E1185953650012BA79 /* Tools */,
 				2FD098DD185857A00012BA79 /* Views */,
 				2FD098C91856FD580012BA79 /* JSON */,
 				2F649849186826C00001F07B /* Controllers */,
-				2F64984A186827BB0001F07B /* DateViewController.h */,
-				2F64984B186827BB0001F07B /* DateViewController.m */,
-				2FD098BA1855A3820012BA79 /* ArrivalViewController.h */,
-				2FD098BB1855A3820012BA79 /* ArrivalViewController.m */,
-				2FD098B71855A2E90012BA79 /* DepartureViewController.h */,
-				2FD098B81855A2E90012BA79 /* DepartureViewController.m */,
 				2FD0987F18559C590012BA79 /* Tabbar Demo */,
 				2FD0989E18559C590012BA79 /* Tabbar DemoTests */,
 				2FD0987818559C590012BA79 /* Frameworks */,
@@ -400,11 +399,19 @@
 		2FD098DD185857A00012BA79 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2FD098DE185858B20012BA79 /* FlightListCell.h */,
-				2FD098DF185858B20012BA79 /* FlightListCell.m */,
+				2F6F9E61187E507000B3F2E6 /* LoginViewController.h */,
+				2F6F9E62187E507000B3F2E6 /* LoginViewController.m */,
+				2F6F9E5E187E4FDA00B3F2E6 /* TabViewController.h */,
+				2F6F9E5F187E4FDA00B3F2E6 /* TabViewController.m */,
+				2F64984A186827BB0001F07B /* DateViewController.h */,
+				2F64984B186827BB0001F07B /* DateViewController.m */,
+				2FD098BA1855A3820012BA79 /* ArrivalViewController.h */,
+				2FD098BB1855A3820012BA79 /* ArrivalViewController.m */,
+				2FD098B71855A2E90012BA79 /* DepartureViewController.h */,
+				2FD098B81855A2E90012BA79 /* DepartureViewController.m */,
+				2FC890B51A07750500F885E9 /* Cell */,
 			);
-			name = Views;
-			path = JSON/Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		2FD098E1185953650012BA79 /* Tools */ = {
