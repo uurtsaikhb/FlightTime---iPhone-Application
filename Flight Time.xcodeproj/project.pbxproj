@@ -291,7 +291,7 @@
 				2FD098EB185967870012BA79 /* Resource */,
 				2FD098E1185953650012BA79 /* Tools */,
 				2FD098DD185857A00012BA79 /* Views */,
-				2FD098C91856FD580012BA79 /* JSON */,
+				2FD098C91856FD580012BA79 /* Json */,
 				2F649849186826C00001F07B /* Controllers */,
 				2FD0987F18559C590012BA79 /* Tabbar Demo */,
 				2FD0989E18559C590012BA79 /* Tabbar DemoTests */,
@@ -374,7 +374,7 @@
 			name = resource;
 			sourceTree = "<group>";
 		};
-		2FD098C91856FD580012BA79 /* JSON */ = {
+		2FD098C91856FD580012BA79 /* Json */ = {
 			isa = PBXGroup;
 			children = (
 				2FCF35BD186053AC002C1F5A /* JSONKit.h */,
@@ -393,7 +393,7 @@
 				2FD098D51856FD580012BA79 /* SBJsonWriter.h */,
 				2FD098D61856FD580012BA79 /* SBJsonWriter.m */,
 			);
-			path = JSON;
+			path = Json;
 			sourceTree = "<group>";
 		};
 		2FD098DD185857A00012BA79 /* Views */ = {
