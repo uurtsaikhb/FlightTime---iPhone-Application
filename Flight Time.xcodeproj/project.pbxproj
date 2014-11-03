@@ -415,8 +415,7 @@
 				2FD098E21859537A0012BA79 /* FlightTool.h */,
 				2FD098E31859537A0012BA79 /* FlightTool.m */,
 			);
-			name = Tools;
-			path = JSON;
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		2FD098EB185967870012BA79 /* Resource */ = {
